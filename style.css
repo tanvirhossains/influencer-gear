@@ -1,0 +1,130 @@
+/* Font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*.............. stat .... */
+
+body{
+    background-color:ghostwhite
+    font-family: 'Poppins', sans-serif;
+
+}
+.to-go-into{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upper-button{
+    color: black;
+    margin-left: 15px;
+    text-decoration:none;
+   
+}
+   
+
+    
+
+/*.............. cameramen section ......... */
+
+
+.cameraman{
+    display: flex;
+    margin:  30px 50px ;
+}
+.head-font{
+    font-size: 3em ;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+}    
+.man{
+    
+    width: 440px;
+    height: 414px;
+}
+article{
+    margin-bottom: 15px;
+}
+.hire{
+    text-decoration: none;
+    background-color:#E84050;
+    width: 100px;
+    padding: 10px 24px;
+    border-radius: 41px;
+    color: white;
+}
+.about-man{
+    margin-right: 100px;
+}
+
+/* ....................products collection....................................... */
+
+.products{
+    /* display:grid;
+    grid-template-columns: repeat (3,1fr); */
+}
+.item-name{
+    text-align: center;
+}
+.collection-contain{
+    margin:50px 0 ;
+    /* background-color: rgb(230, 233, 243); */
+    /* display: flex; */
+   
+    /* flex-direction: column; */
+    /* position: absolute; */
+    /* width: 1000px; */
+}
+.collection-title{
+    text-align: center;
+    
+}
+
+
+.collection-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 8px;
+    margin-left: 10px;
+}
+.product{
+    background-color: #FFFFFF;
+    width: 310px;
+    padding-bottom: 5px;
+    box-shadow:20px 20px 50px 15px grey;
+}
+.item-pic{
+    width: 285px;
+    height: 256px;
+    margin: 17px 15px 0 14px ;
+}
+.product-detail{
+    margin-left: 14px;
+    margin-bottom: 17px;
+}
+.fa-star{
+    color: orange;
+    
+}
+.fa-star-half-alt{
+    color: orange;
+}
+.available{
+    color: #787885;
+}
+#see{
+    text-decoration: none;
+    color: #af1a29;
+}
+
+
+/* -------------------------------------
+----------footer -------------- */
+
+footer{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: #070735;
+}
+a{
+    color:white;
+}
