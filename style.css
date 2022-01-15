@@ -13,6 +13,7 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
 .upper-button{
     color: black;
     margin-left: 15px;
@@ -35,6 +36,9 @@ body{
    border-radius: 14px;
     width: 440px;
     height: 414px;
+}
+.man:hover{
+    transform: rotateX(150deg);
 }
 article{
     margin-bottom: 15px;
